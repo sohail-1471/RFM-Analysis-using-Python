@@ -6,7 +6,7 @@ import plotly.io as pio
 from datetime import datetime
 pio.templates.default = "plotly_white"
 
-data = pd.read_csv("D:/Data Science/Data Science projects/data analysis/RFM Analysis/rfm_data.csv")
+data = pd.read_csv("rfm_data.csv")
 pd.set_option('display.max_columns',None)
 # Let's have a look at first five rows of the dataset:
 print(data.head())
